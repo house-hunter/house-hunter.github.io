@@ -1,0 +1,12 @@
+  .intro-body {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(../img/intro-bg.png) no-repeat center center scroll;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
