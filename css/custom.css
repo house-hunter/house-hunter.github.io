@@ -59,18 +59,18 @@ a:focus {
 }
 
 .intro-body {
-  /*width: 100%;
+  width: 100%;
   padding: 50px 0;
   color: white;
   background: url(../img/intro-bg.png) no-repeat center center scroll;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
 
-    background: url(../img/intro-bg.png);
+    /*background: url(../img/intro-bg.png);
     background-size: cover;
     background-attachment: inherit;
     -webkit-background-size: cover;
@@ -78,12 +78,27 @@ a:focus {
     -o-background-size: cover;
     height: 100%;
     width: 100%;
-    /*position: fixed;*/
+    position: fixed;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 .no-touch .intro-body {
     background-attachment: fixed;
+}
+
+body:after{
+      content:"";
+      background-size: cover;
+      top:0;
+      height:100vh; 
+      left:0;
+      right:0;
+      z-index:-1;
+      background: url(../img/intro-bg.png) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .tour-section {
