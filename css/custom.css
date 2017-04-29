@@ -240,7 +240,7 @@ ul.external li a:hover {
 
 
 .fancybox-item.fancybox-close {
-    background: url("../img/icons/close.png") no-repeat scroll 0 0 transparent;
+    background: url("../icons/close.png") no-repeat scroll 0 0 transparent;
     height: 50px;
     right: 0;
     top: 0;
