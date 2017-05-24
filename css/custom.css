@@ -98,6 +98,15 @@ a:focus {
   -o-background-size: cover;
 }
 
+.partners-section {
+    text-align: center;
+}
+.centered {
+       float: none;
+    margin: 0 auto;
+    display: inline-block;
+}
+
 .line {
     border-top: 2px solid #e83363;
     height: 60px;
